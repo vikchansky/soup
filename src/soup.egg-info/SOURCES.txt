@@ -1,0 +1,11 @@
+.gitignore
+README.md
+pyproject.toml
+src/soup/__init__.py
+src/soup/main.py
+src/soup.egg-info/PKG-INFO
+src/soup.egg-info/SOURCES.txt
+src/soup.egg-info/dependency_links.txt
+src/soup.egg-info/entry_points.txt
+src/soup.egg-info/requires.txt
+src/soup.egg-info/top_level.txt

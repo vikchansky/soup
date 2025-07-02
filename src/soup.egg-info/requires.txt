@@ -1,0 +1,7 @@
+
+[:implementation_name != "pypy"]
+numpy>=2.1.0
+
+[plotting]
+matplotlib>=3.10.1
+tornado

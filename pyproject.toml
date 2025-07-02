@@ -15,7 +15,9 @@ maintainers = [
     {name = "Markus22848", email = "Kolodyaznyy95@mail.ru"},
 ]
 dependencies = [
-    "numpy>=2.1.0; implementation_name!='pypy'",
+    "numpy>=2.1.0",
+    "pionsdk",
+
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",

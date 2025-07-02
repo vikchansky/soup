@@ -1,0 +1,2 @@
+[console_scripts]
+start_soup = soup.main:main
