@@ -1,6 +1,8 @@
 .gitignore
+LICENSE
 README.md
 pyproject.toml
+setup.cfg
 src/soup/__init__.py
 src/soup/main.py
 src/soup.egg-info/PKG-INFO

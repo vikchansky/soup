@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: soup
-Version: 0.1.dev9+gc7ace98.d20250702
+Version: 0.0.0
 Summary: This module is needed to control drondes
 Author-email: vikchansky <viktoriadruzenok@gmail.com>
 Maintainer-email: VorozhtsovaV <Viktoriavo15@gmail.com>, Markus22848 <Kolodyaznyy95@mail.ru>
@@ -16,10 +16,13 @@ Classifier: Programming Language :: Python :: 3.12
 Classifier: Programming Language :: Python :: 3.13
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
-Requires-Dist: numpy>=2.1.0; implementation_name != "pypy"
+License-File: LICENSE
+Requires-Dist: numpy>=2.1.0
+Requires-Dist: pionsdk
 Provides-Extra: plotting
 Requires-Dist: matplotlib>=3.10.1; extra == "plotting"
 Requires-Dist: tornado; extra == "plotting"
+Dynamic: license-file
 
 # soup
 
