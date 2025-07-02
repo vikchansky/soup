@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=75",  "setuptools-scm>=8", "wheel", "Cython", "numpy>=2.1.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -35,7 +35,7 @@ readme = {file = "README.md", content-type = "text/markdown"}
 Homepage = "https://github.com/vikchansky/soup"
 
 [project.scripts]
-#start_server_radxa = "swarm_server.scripts.server_radxa:main"
+start_soup = "soup.main:main"
 
 [project.optional-dependencies]
 plotting = [
